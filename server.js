@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://heroku_l9x5dqp0:f2s9e2ccristqk3e146r7ui2vc@ds213612.mlab.com:13612/heroku_l9x5dqp0');
+//ghjk
 var Employee = mongoose.model('Employee', mongoose.Schema({
 	nombre:String,
 	cedula:String,
