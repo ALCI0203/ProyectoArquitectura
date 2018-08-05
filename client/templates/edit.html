@@ -1,0 +1,29 @@
+<div class="panel panel-default" ng-init="showEmployee()">
+	<div class="panel-heading">
+	  <p class="panel-title"><span style="color:#5bc0de;" 
+class="glyphicon glyphicon-edit"> </span> Modificar Clientes</p>
+	</div>
+	<div class="panel-body">
+		<form ng-submit="updateEmployee()">
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" class="form-control" id="nombre" ng-model="employee.nombre" value="employee.name">
+    </div>
+    <div class="form-group">
+      <label for="cedula">Cedula:</label>
+      <input type="text" class="form-control" id="cedula" ng-model="employee.cedula" value="employee.cedula">
+    </div>
+    <div class="form-group">
+      <label for="fecha">Fecha de nacimiento:</label>
+      <input type="text" class="form-control" id="fecha" ng-model="employee.fecha" value="employee.fecha">
+    </div>
+    <div class="form-group">
+      <label for="estatura">Estatura:</label>
+      <input type="text" class="form-control" id="estatura" ng-model="employee.estatura" value="employee.estatura">
+    </div>
+
+    <button type="submit" style="color:#5bc0de;" class="btn btn-default">Modificar</button>
+    <a href="#/employees" class="btn btn-default"> Cancelar</a>
+</form>		
+    <div>
+<div>
